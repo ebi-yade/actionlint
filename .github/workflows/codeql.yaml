@@ -10,9 +10,6 @@ on:
     - cron: '41 21 * * 5'
   workflow_dispatch:
 
-env:
-  CODEQL_EXTRACTOR_GO_BUILD_TRACING: 'on'
-
 jobs:
   analyze:
     name: Analyze
